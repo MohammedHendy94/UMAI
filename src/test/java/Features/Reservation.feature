@@ -14,6 +14,7 @@ Feature: Reservation
     And choose to not being a member
     Then the reservation should be confirmed successfully
 
+
   Scenario Outline: validate that user cant send invalid data in the contact details page
     Given user open the reservations tab
     When user select data
