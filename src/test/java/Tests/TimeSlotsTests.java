@@ -32,7 +32,6 @@ public class TimeSlotsTests extends Base {
         timepag.selectthetimeslot();
     }
 
-
     @And("choose the location_popover as {string}")
     public void chooseTheLocation_popoverAs(String choice) {
        // timepag = new TimeSlotsPage();
